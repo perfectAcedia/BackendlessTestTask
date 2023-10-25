@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/perfectAcedia/BackendlessTestTask.git",
   "name": "backendless_test_task",
   "version": "1.0.0",
   "description": "",
@@ -8,14 +9,15 @@
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",

@@ -1,6 +1,11 @@
 import React from "react";
-const App = () => {
-  return <h1>Hello React</h1>;
-};
+import { Route, Routes } from "react-router-dom";
 
-export default App;
+export default function App() {
+  return (
+    <Routes>
+        <Route path="/" element={<h1>Home Page</h1>} />
+        <Route path="/posts" element={<h1>Posts Page</h1>} />
+    </Routes>
+  );
+}
